@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #f0f0f0;
+    ;
+    font-family: roboto;
+}
+
+header {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    padding: 10px;
+}
+
+.HederlogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hederUl {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.hederUl a {
+    text-decoration: none;
+    color: #303031;
+    font-family: Roboto;
+    font-weight: 600;
+
+}
+
+.hederUl li:last-child a {
+    color: #71A894;
+}
+
+/* section1 */
+.section1 {
+    max-width: 1500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.S1LeftDiv h1 {
+    width: 608px;
+    font-size: 70px;
+    color: #303031;
+}
+
+.S1LeftDiv p {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #66645E;
+}
+
+.S1LeftDiv button {
+    width: 220px;
+    height: 64px;
+    left: -2.5px;
+    padding: 20px 24px 20px 24px;
+    border-radius: 8px;
+    background-color: #71A894;
+    color: white;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* section2 */
+.section2 {
+    text-align: center;
+    max-width: 1500px;
+    margin: 90px auto;
+}
+
+.section2p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    width: 895px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.section2h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: center;
+
+}
+
+.section2IconDiv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section2IconDiv div {
+
+    width: 427px;
+    height: 340px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 8px 0px #0000001A;
+    border-radius: 8px;
+}
+
+/* section 3 */
+.section3LeftDiv h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: left;
+    width: 644px;
+    height: 128px;
+
+
+}
+
+.section3LeftDiv p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #303031;
+    width: 644px;
+    height: 78px;
+
+}
+
+.section3 {
+    max-width: 1500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+
+.section3RightDiv {
+    border: 4px solid #303031;
+    width: 484px;
+    height: 440px;
+    border-radius: 16px;
+}
+
+.section3RightDiv h4 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+
+.section3RightDivChildren {
+    display: flex;
+    gap: 10px;
+}
+
+.section3RightDivChildren img {
+    padding: 20px 5px;
+
+
+}
+
+.section3RightDivChildren p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #303031;
+}
+
+.section3RightDivChildren span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.section3RightDiv h4 {
+    margin-left: 10px;
+}
+
+/* section 4 */
+.section4 {
+    max-width: 1500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4LeftDivIMGDiv {
+    display: flex;
+    align-items: center;
+
+}
+
+.section4LeftDiv {
+    border: 4px solid #303031;
+    width: 484px;
+    height: 440px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.cost {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cost div:nth-child(1) {
+    width: 200px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+
+}
+
+.cost div p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #66645E;
+}
+
+.cost div span {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #303031;
+}
+
+.section4LeftDiv button {
+    background-color: #303031;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 404px;
+    height: 56px;
+    top: 324px;
+    left: 40px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 16px;
+    opacity: 0px;
+    margin: 30px 40px;
+
+}
+
+.section4LeftDivIMGDiv p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #303031;
+
+}
+
+.section4LeftDivIMGDiv span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #66645E;
+}
+
+.section4 p {
+    Width: 404px;
+    Height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+/* section 5 */
+.section4 {
+
+    display: flex;
+    max-width: 1500px;
+    margin: 150px auto;
+    gap: 30px;
+    font-family: roboto;
+    position: relative;
+}
+
+.first {
+    margin-top: 70px;
+    margin-right: 20px;
+    font-family: roboto;
+}
+
+.first h3 {
+    font-size: 48px;
+}
+
+
+.second1Div {
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 30px;
+    position: relative;
+    width: 685px;
+    margin-bottom: 10px;
+}
+
+.second1Div button {
+    width: 79px;
+    height: 39px;
+    border-radius: 40px;
+    background-color: #87c2ad;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: roboto;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.therdDiv {
+    width: 381px;
+    height: 320px;
+    border: 4px solid #303031;
+    border-radius: 16px;
+    padding: 0px 25px 25px 25px;
+    background-color: #F3F0EA;
+}
+
+.image2 {
+    border-radius: 40px;
+}
+
+.therdDiv span {
+    position: relative;
+    bottom: 29px;
+    color: #303031;
+    font-family: roboto;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.therdDiv h4 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.fortDiv {
+    width: 240px;
+    height: 298px;
+    border: 4px solid #71A894;
+    border-radius: 16px;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    bottom: 350px;
+    left: 430px;
+}
+
+.ikip {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: roboto;
+    color: #66645E;
+}
+
+.fortDiv button {
+    background-color: #303031;
+    width: 192px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 16px;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.ucp {
+    position: relative;
+    right: 10px;
+}
+
+/* section 6 */
+.section6 {
+    max-width: 1500px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.section6 h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+
+
+}
+
+.section6P {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+
+}
+
+.section6Windov {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 50px;
+
+}
+
+.section6ButtonDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section6ButtonDiv button {
+    width: 68px;
+    height: 32px;
+    padding: 4px;
+    border-radius: 40px;
+    background-color: #71A894;
+}
+.section6ButtonDiv p{
+    font-family: Roboto;
+    font-size: 76px;
+    font-style: italic;
+    font-weight: 100!important;
+    color:  #303031 !important;
+}
+.section6Windov div {
+    background-color: #fff;
+    width: 427px;
+    height: 216px;
+    border-radius: 16px;
+}
+
+.section6Windov div p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #303031;
+}
+
+.section6Windov div span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #303031;
+}
+
+.section6ButtonLast {
+    width: 134px;
+    height: 64px;
+    top: 4008px;
+    left: 653.5px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #303031;
+    color: #ffffff;
+
+}
+.buttonLast{
+    height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+}
