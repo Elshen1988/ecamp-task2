@@ -475,13 +475,15 @@ header {
     border-radius: 40px;
     background-color: #71A894;
 }
-.section6ButtonDiv p{
+
+.section6ButtonDiv p {
     font-family: Roboto;
     font-size: 76px;
     font-style: italic;
-    font-weight: 100!important;
-    color:  #303031 !important;
+    font-weight: 100 !important;
+    color: #303031 !important;
 }
+
 .section6Windov div {
     background-color: #fff;
     width: 427px;
@@ -519,15 +521,68 @@ header {
     color: #ffffff;
 
 }
-.buttonLast{
+
+.buttonLast {
     height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+/* section7 */
+.section7 {
+    max-width: 1500px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftSection7 h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    text-align: left;
+    color: #303031;
+    width: 644px;
+}
+
+.leftSection7 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #303031;
+}
+
+.leftSection7 button {
+    width: 220px;
+    height: 64px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #71A894;
+    font-family: Roboto;
 font-size: 18px;
 font-weight: 700;
 line-height: 24px;
-text-align: center;
-
+text-align: left;
+color: #fff;
+}
+/* footer */
+footer{
+    max-width: 1500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    padding: 10px;
 }
